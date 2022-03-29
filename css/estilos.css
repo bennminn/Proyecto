@@ -1,0 +1,55 @@
+body{
+    background-color: green;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+}
+
+.logo img{
+    margin-left: 10px;
+    align-items: center;
+}
+
+.nombre-empresa{
+    color: white;
+    list-style: none;
+    margin-right: 350px;
+}
+
+.nav-enlace{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav-enlace:hover{
+    background: white;
+    color: black;
+}
+
+.section1{
+    background-color: white;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
