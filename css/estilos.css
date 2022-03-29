@@ -1,5 +1,6 @@
 body{
     background-color: green;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 header{
@@ -42,6 +43,22 @@ header{
     color: black;
 }
 
+.productos{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+#servicios{
+    text-align: center;
+}
+
+.productos text-prod{
+    text-decoration: none;
+    list-style: none;
+
+}
+
 .section1{
     background-color: white;
     height: 100%;
@@ -52,4 +69,25 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+}
+
+
+
+/* centrar imagen */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 630px;
+
+  }
+
+p {
+    color: gold;
+    font-size: large;
+}
+
+h3 {
+    color: gold;
 }
